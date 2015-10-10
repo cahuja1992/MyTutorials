@@ -4,11 +4,6 @@
 1. Install Python2.7
 2. Install Setuptools, Pip, Virtual Enviroment
 3. Install ipython, matplotlib, scipy, pandas, numpy, scikit-learn, nltk
-
-## Windows Installation
-
-
-
 ### Centos 6.5+ 
 
     $ which python 
