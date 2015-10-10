@@ -118,7 +118,7 @@ After running the commands above your newly installed Python 2.7.6 interpreter w
 
 Check with:
 
-    root@lg1:/opt/Python-2.7.6 ] ls -ltr /usr/bin/python*
+    root@node-01/opt/Python-2.7.6 ] ls -ltr /usr/bin/python*
 
     lrwxrwxrwx 1 root root    6 Nov 16  2002 /usr/bin/python2 -> python
     -rwxr-xr-x 1 root root 1418 Jul 10  2013 /usr/bin/python2.6-config
@@ -126,7 +126,7 @@ Check with:
     -rwxr-xr-x 2 root root 4864 Jul 10  2013 /usr/bin/python
     lrwxrwxrwx 1 root root   16 Oct 24 15:39 /usr/bin/python-config -> python2.6-config
 
-    root@lg1:/opt/Python-2.7.6 ] ls -ltr /usr/local/bin/python*
+    root@node-01/opt/Python-2.7.6 ] ls -ltr /usr/local/bin/python*
     -rwxr-xr-x 1 root root 6214533 Mar 19 22:46 /usr/local/bin/python2.7
     -rwxr-xr-x 1 root root    1674 Mar 19 22:46 /usr/local/bin/python2.7-config
  
@@ -149,12 +149,12 @@ final check:
 
 
     sudo sh
-    root@lg1:~ ] which python
+    root@node-01~ ] which python
     /usr/bin/python
-    root@lg1:/home/0xdiag ] python
+    root@node-01/home/0xdiag ] python
     Python 2.6.6 (r266:84292, Jul 10 2013, 22:48:45) 
     [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)] on linux2
-    root@lg1:~ ] exit
+    root@node-01~ ] exit
  
     sudo - user
     user@lg1:~ ] which python
