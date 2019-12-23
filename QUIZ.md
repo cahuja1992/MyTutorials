@@ -40,5 +40,7 @@ Therefore, there is 97 % that the coin is baised one.
 Say we have X ~ Uniform(0, 1) and Y ~ Uniform(0, 1). What is the expected value of the minimum of X and Y?
 ```
 
-
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 ---
