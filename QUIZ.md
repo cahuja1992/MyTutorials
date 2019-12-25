@@ -37,7 +37,41 @@ Therefore, there is 97 % that the coin is baised one.
 
 ## Question 2:
 ```
-Say we have X ~ Uniform(0, 1) and Y ~ Uniform(0, 1). What is the expected value of the minimum of X and Y?
+Say we have X ~ Uniform(0, 1) and Y ~ Uniform(0, 1). What is the expected value min(X, Y) ?
 ```
+Answer: 
+
+```
+Let take 
+    Z = min(X, Y)
+
+    if we take any sample of Z i.e z as the upper bound to fullfill the condition
+    then CDF = P(Z <=z )  = P(X <= z, Y <=z)
+                          = 1 - P(X > z, Y > z)
+    if X and Y are independent events then 
+        P(X > z, Y > z) = P(X > z) * P(Y > z)
+
+        therefore, 
+        P(Z <=z ) = 1 - P(X > z, Y > z)
+                  = 1 - [(1 - z) * (1 - z)]
+                  = 1 - (1- z) ^ 2
+
+    Thefore, 
+    PDF(z)  = CFD(z) / dz
+            = 2 * (1 - z)
+    
+    and the first expected value of z
+
+    E(z) = Integral(z * PDF(z)) from range 0, 1 = [(1/z^2) - (1-z^3)] from range 0, 1
+    E(z)     = 1/3
+
+    
+    
+```
+
+        
+
+    
+
 
 ---
